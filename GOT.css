@@ -1,0 +1,94 @@
+
+<!--Navbar-->
+
+.navbar {
+    overflow: hidden;
+    display: inline-block;
+    
+    background-color: lightgray;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 30%; /* Full width */
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-right: 35%;
+    margin-left: 35%;
+    text-transform: uppercase;
+  }
+.navbar a {
+    text-decoration: none;
+}
+ a:hover {
+    background-color: white;
+}
+
+<!--END NAVBAR-->
+
+
+
+  /*--END Media--*/
+  * {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width:100%;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 90%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+  /*--Table--*/
+
+  table, tr, td, th {
+    width: 70%;
+    height: 50%;
+    border: 2px solid;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+    text-align: center; 
+  }
+
+  td, th {
+    text-align: center;
+    padding: 15px;
+    color:black;
+  }
+  th {
+    background-color: lightgray;
+  }
+  <!--END TABLE-->
+ 
+  .footer {
+    text-align: center;
+    font-weight: bold;
+  }
+  p:hover {
+    background-color: lightgray;
+  }
